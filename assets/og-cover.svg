@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">JLC Reformas em Geral</title>
+  <desc id="desc">Hidráulica e reformas em geral em São Paulo</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#14212b"/>
+      <stop offset="100%" stop-color="#8f6239"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <g fill="#ffffff" font-family="Montserrat, Arial, sans-serif">
+    <text x="80" y="120" font-size="28" opacity="0.82">JLC Reformas em Geral</text>
+    <text x="80" y="280" font-size="74" font-weight="700">Hidráulica e</text>
+    <text x="80" y="370" font-size="74" font-weight="700">reformas em geral</text>
+    <text x="80" y="455" font-size="30" opacity="0.88">Jardim Paulista • São Paulo • (11) 98660-0089</text>
+  </g>
+</svg>

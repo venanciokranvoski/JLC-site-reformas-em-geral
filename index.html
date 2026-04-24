@@ -14,8 +14,13 @@
     />
     <meta name="author" content="JLC Reformas em Geral" />
     <meta name="robots" content="index, follow" />
+    <meta
+      name="googlebot"
+      content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+    />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="pt_BR" />
+    <meta property="og:site_name" content="JLC Reformas em Geral" />
     <meta
       property="og:title"
       content="JLC Reformas em Geral | Hidráulica e reformas em geral em São Paulo"
@@ -24,17 +29,37 @@
       property="og:description"
       content="Hidráulica e reformas em geral no Jardim Paulista, com atendimento direto e rápido."
     />
+    <meta property="og:url" content="https://jlcreformasemgeral.site/" />
+    <meta
+      property="og:image"
+      content="https://jlcreformasemgeral.site/assets/og-cover.svg"
+    />
+    <meta property="og:image:alt" content="JLC Reformas em Geral em São Paulo" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="JLC Reformas em Geral | JLC Reformas e JLC Hidráulica em São Paulo"
+    />
+    <meta
+      name="twitter:description"
+      content="Empresa do Jardim Paulista focada em hidráulica e reformas em geral com atendimento rápido em São Paulo."
+    />
+    <meta
+      name="twitter:image"
+      content="https://jlcreformasemgeral.site/assets/og-cover.svg"
+    />
     <meta name="theme-color" content="#f4efe7" />
     <meta name="referrer" content="strict-origin-when-cross-origin" />
     <meta http-equiv="X-Content-Type-Options" content="nosniff" />
     <meta
       http-equiv="Content-Security-Policy"
-      content="default-src 'self'; base-uri 'self'; object-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://images.pexels.com; connect-src 'self'; upgrade-insecure-requests"
+      content="default-src 'self'; base-uri 'self'; object-src 'none'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; upgrade-insecure-requests"
     />
     <meta
       http-equiv="Permissions-Policy"
       content="accelerometer=(), autoplay=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()"
     />
+    <link rel="canonical" href="https://jlcreformasemgeral.site/" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -43,26 +68,99 @@
     />
     <link rel="stylesheet" href="styles.css" />
     <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "LocalBusiness",
-        "name": "JLC Reformas em Geral",
-        "telephone": "+55-11-98660-0089",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "R. Pamplona, 1635 - Jardim Paulista",
-          "addressLocality": "São Paulo",
-          "addressRegion": "SP",
-          "postalCode": "01405-003",
-          "addressCountry": "BR"
+      [
+        {
+          "@context": "https://schema.org",
+          "@type": ["LocalBusiness", "Plumber", "GeneralContractor"],
+          "@id": "https://jlcreformasemgeral.site/#localbusiness",
+          "name": "JLC Reformas em Geral",
+          "url": "https://jlcreformasemgeral.site/",
+          "image": [
+            "https://jlcreformasemgeral.site/assets/hero-paulista.jpg",
+            "https://jlcreformasemgeral.site/assets/hero-obra.jpg",
+            "https://jlcreformasemgeral.site/assets/hero-resultado.jpg"
+          ],
+          "telephone": "+55-11-98660-0089",
+          "priceRange": "$$",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "R. Pamplona, 1635 - Jardim Paulista",
+            "addressLocality": "São Paulo",
+            "addressRegion": "SP",
+            "postalCode": "01405-003",
+            "addressCountry": "BR"
+          },
+          "areaServed": [
+            "Jardim Paulista",
+            "Jardins",
+            "São Paulo",
+            "SP"
+          ],
+          "description": "JLC Reformas em Geral atende São Paulo com foco em hidráulica, vazamentos, infiltrações, entupimentos e reformas em geral.",
+          "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Serviços JLC Reformas",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Hidráulica residencial e comercial"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Vazamentos, infiltrações e entupimentos"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Reformas de banheiro, cozinha e ajustes gerais"
+                }
+              }
+            ]
+          }
         },
-        "areaServed": "São Paulo",
-        "priceRange": "$$",
-        "description": "Empresa de reformas em geral com foco em hidráulica, manutenção e reparos no Jardim Paulista e região."
-      }
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "@id": "https://jlcreformasemgeral.site/#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "A JLC faz hidráulica e reforma com o mesmo foco?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Sim. A empresa atende tanto serviços de hidráulica quanto reformas em geral em São Paulo."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Que tipo de problema vocês resolvem?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "A JLC atende vazamentos, infiltrações, entupimentos, troca de tubulação, reforma de banheiro, cozinha e ajustes gerais."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Como pedir orçamento ou visita?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "O jeito mais rápido é falar no WhatsApp ou ligar para (11) 98660-0089."
+              }
+            }
+          ]
+        }
+      ]
     </script>
   </head>
   <body>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
     <header class="site-header">
       <div class="container topbar">
         <a class="brand" href="#topo" aria-label="JLC Reformas em Geral">
@@ -88,12 +186,12 @@
       <section class="hero">
         <div class="container hero-shell">
           <div class="hero-copy" data-reveal>
-            <p class="eyebrow">Jardim Paulista • São Paulo • atendimento direto</p>
-            <h1>Hidráulica e reformas em geral para resolver sem enrolação.</h1>
+            <p class="eyebrow">JLC Reformas • JLC Hidráulica • Jardim Paulista • São Paulo</p>
+            <h1>JLC Reformas: hidráulica e reformas em geral para resolver sem enrolação.</h1>
             <p class="hero-lead">
-              Vazamento, infiltração, obra parada, banheiro precisando de reforma ou ajuste no
-              apartamento? A JLC entra para resolver do começo ao fim. Serviço prático, conversa
-              clara e mais cuidado para o problema não voltar.
+              Vazamento, infiltração, entupimento, banheiro precisando de obra ou reforma mal feita?
+              A JLC Reformas atende São Paulo com foco em resolver rápido, explicar com clareza e
+              entregar o serviço do jeito que o cliente espera.
             </p>
 
             <div class="hero-actions">
@@ -105,7 +203,7 @@
               >
                 Pede um orçamento rápido
               </a>
-              <a class="button button-secondary" href="#servicos">Ver os serviços</a>
+              <a class="button button-secondary" href="#servicos">Ver serviços de hidráulica e reforma</a>
             </div>
 
             <ul class="hero-points">
@@ -119,7 +217,7 @@
             <div class="slides">
               <article class="slide is-active" data-slide>
                 <img
-                  src="https://images.pexels.com/photos/29279918/pexels-photo-29279918.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                  src="assets/hero-paulista.jpg"
                   alt="Vista da região da Avenida Paulista em São Paulo"
                   width="1600"
                   height="900"
@@ -140,7 +238,7 @@
 
               <article class="slide" data-slide>
                 <img
-                  src="https://images.pexels.com/photos/5493654/pexels-photo-5493654.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                  src="assets/hero-obra.jpg"
                   alt="Profissional trabalhando em uma reforma interna"
                   width="1600"
                   height="900"
@@ -161,7 +259,7 @@
 
               <article class="slide" data-slide>
                 <img
-                  src="https://images.pexels.com/photos/7214445/pexels-photo-7214445.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                  src="assets/hero-resultado.jpg"
                   alt="Ambiente pronto após reforma com acabamento limpo"
                   width="1600"
                   height="900"
@@ -198,7 +296,7 @@
         </div>
       </section>
 
-      <section class="highlights">
+      <section class="highlights" id="conteudo">
         <div class="container highlights-grid">
           <article class="highlight-card" data-reveal>
             <span>01</span>
@@ -212,8 +310,8 @@
           </article>
           <article class="highlight-card" data-reveal>
             <span>03</span>
-            <h2>Atendimento próximo</h2>
-            <p>Quem chama quer retorno rápido e solução prática. A JLC trabalha desse jeito, no dia a dia.</p>
+            <h2>Marca que precisa ser lembrada</h2>
+            <p>Quem procurar por JLC Reformas ou JLC Hidráulica deve encontrar a empresa fácil e com a informação certa.</p>
           </article>
         </div>
       </section>
@@ -221,11 +319,11 @@
       <section class="section" id="servicos">
         <div class="container section-head" data-reveal>
           <p class="eyebrow">Serviços</p>
-          <h2>Hidráulica e reformas em geral. Os dois com o mesmo peso.</h2>
+          <h2>Serviços de hidráulica e reformas em geral com foco em São Paulo.</h2>
           <p>
-            Tem cliente que chega por causa de vazamento. Tem cliente que chama porque a reforma está
-            parada ou foi mal feita. Aqui os dois serviços são levados a sério e resolvidos com a
-            mesma atenção.
+            Tem cliente que procura por JLC Hidráulica. Tem cliente que procura por JLC Reformas.
+            O site foi organizado para deixar claro que a empresa atende os dois tipos de serviço no
+            Jardim Paulista, nos Jardins e em outras regiões de São Paulo.
           </p>
         </div>
 
@@ -258,6 +356,31 @@
               colocar a obra no caminho certo.
             </p>
           </article>
+          <article class="service-card" data-reveal>
+            <h3>Hidráulica no Jardim Paulista e região</h3>
+            <p>
+              Atendimento para apartamento, casa e imóvel comercial em São Paulo, com foco em
+              serviços hidráulicos que precisam de resposta rápida.
+            </p>
+          </article>
+          <article class="service-card" data-reveal>
+            <h3>Reformas em geral em São Paulo</h3>
+            <p>
+              Banheiro, cozinha, melhorias e ajustes para quem precisa deixar o espaço pronto sem
+              obra arrastada e sem retrabalho.
+            </p>
+          </article>
+        </div>
+        <div class="container inline-cta" data-reveal>
+          <p>Está com problema agora? Fala com a gente no WhatsApp e pede um orçamento rápido.</p>
+          <a
+            class="button button-primary"
+            href="https://wa.me/5511986600089?text=Ol%C3%A1%2C%20preciso%20de%20um%20or%C3%A7amento%20de%20hidr%C3%A1ulica%20ou%20reforma%20com%20a%20JLC."
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Fala com a gente no WhatsApp
+          </a>
         </div>
       </section>
 
@@ -303,7 +426,7 @@
         <div class="container local-layout">
           <div class="section-head section-head-left" data-reveal>
             <p class="eyebrow">Região</p>
-            <h2>Atendimento no Jardim Paulista e região</h2>
+            <h2>SEO local para JLC Reformas e JLC Hidráulica em São Paulo</h2>
             <p>
               Quem procura por hidráulica ou reformas em geral na Rua Pamplona, no Jardim Paulista e
               nos arredores precisa encontrar uma empresa que já conhece a rotina da região e
@@ -341,7 +464,7 @@
         <div class="container review-grid">
           <article class="review-card" data-reveal>
             <img
-              src="https://images.pexels.com/photos/33716419/pexels-photo-33716419.jpeg?auto=compress&cs=tinysrgb&w=240"
+              src="assets/cliente-ana.jpg"
               alt="Foto de cliente Ana Paula"
               width="88"
               height="88"
@@ -354,7 +477,7 @@
           </article>
           <article class="review-card" data-reveal>
             <img
-              src="https://images.pexels.com/photos/31684417/pexels-photo-31684417.jpeg?auto=compress&cs=tinysrgb&w=240"
+              src="assets/cliente-marcelo.jpg"
               alt="Foto de cliente Marcelo"
               width="88"
               height="88"
@@ -367,7 +490,7 @@
           </article>
           <article class="review-card" data-reveal>
             <img
-              src="https://images.pexels.com/photos/29284321/pexels-photo-29284321.jpeg?auto=compress&cs=tinysrgb&w=240"
+              src="assets/cliente-ricardo.jpg"
               alt="Foto de cliente Ricardo"
               width="88"
               height="88"
@@ -377,6 +500,35 @@
             />
             <span>Ricardo</span>
             <p>"Chegaram no horário, explicaram o que precisava fazer e fizeram tudo certo. Hoje em dia isso já conta muito."</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section blog-section">
+        <div class="container section-head" data-reveal>
+          <p class="eyebrow">Conteúdo para ranquear</p>
+          <h2>Estrutura pronta para crescer com blog e ganhar autoridade local.</h2>
+          <p>
+            Além da página principal, o site pode crescer com artigos voltados para buscas locais e
+            dúvidas reais de quem procura hidráulica e reformas em São Paulo.
+          </p>
+        </div>
+
+        <div class="container blog-grid">
+          <article class="blog-card" data-reveal>
+            <span>Artigo 01</span>
+            <h3><a href="blog/hidraulica-no-jardim-paulista/">Hidráulica no Jardim Paulista: quando chamar antes do problema piorar</a></h3>
+            <p>Conteúdo voltado para vazamentos, infiltrações e manutenção preventiva na região.</p>
+          </article>
+          <article class="blog-card" data-reveal>
+            <span>Artigo 02</span>
+            <h3><a href="blog/reforma-de-banheiro-sao-paulo/">Reforma de banheiro em São Paulo: o que evitar para não gastar duas vezes</a></h3>
+            <p>Artigo pensado para quem quer reformar sem cair em obra parada ou acabamento ruim.</p>
+          </article>
+          <article class="blog-card" data-reveal>
+            <span>Artigo 03</span>
+            <h3><a href="blog/vazamento-e-infiltracao/">Vazamento e infiltração: sinais de que não dá mais para adiar</a></h3>
+            <p>Texto focado em dor real, urgência e solução, com potencial de busca orgânica.</p>
           </article>
         </div>
       </section>
@@ -419,7 +571,7 @@
       <div class="container footer-shell">
         <div class="footer-copy" data-reveal>
           <p class="eyebrow">Contato</p>
-          <h2>Se precisa resolver hidráulica ou tocar a reforma, chama a JLC.</h2>
+          <h2>Se precisa resolver hidráulica ou tocar a reforma, chama a JLC Reformas.</h2>
           <p>
             Pede um orçamento rápido, fala com a gente no WhatsApp ou agenda uma visita. Resolver
             agora evita mais gasto, mais quebra e mais dor de cabeça depois.

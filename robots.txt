@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://SEU-DOMINIO-AQUI.com.br/sitemap.xml
+Sitemap: https://jlcreformasemgeral.site/sitemap.xml

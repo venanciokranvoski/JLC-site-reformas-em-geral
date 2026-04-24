@@ -1,0 +1,26 @@
+{
+  "siteUrl": "https://jlcreformasemgeral.site",
+  "brand": "JLC Reformas em Geral",
+  "pages": [
+    {
+      "path": "/",
+      "priority": "1.0"
+    },
+    {
+      "path": "/blog/",
+      "priority": "0.8"
+    },
+    {
+      "path": "/blog/hidraulica-no-jardim-paulista/",
+      "priority": "0.7"
+    },
+    {
+      "path": "/blog/reforma-de-banheiro-sao-paulo/",
+      "priority": "0.7"
+    },
+    {
+      "path": "/blog/vazamento-e-infiltracao/",
+      "priority": "0.7"
+    }
+  ]
+}
